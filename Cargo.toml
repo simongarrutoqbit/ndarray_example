@@ -1,0 +1,8 @@
+[package]
+name = "prova_ndarray"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ndarray = "0.15.6"
+polars = { version = "0.43.1", features = ["ndarray"] }
